@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/saoriol/Gemestone-app.git/static/css/main.7d7f700b.css",
+    "main.js": "/saoriol/Gemestone-app.git/static/js/main.1d8bc48a.js",
+    "index.html": "/saoriol/Gemestone-app.git/index.html",
+    "main.7d7f700b.css.map": "/saoriol/Gemestone-app.git/static/css/main.7d7f700b.css.map",
+    "main.1d8bc48a.js.map": "/saoriol/Gemestone-app.git/static/js/main.1d8bc48a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d7f700b.css",
+    "static/js/main.1d8bc48a.js"
+  ]
+}
