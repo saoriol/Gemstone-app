@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { HashRouter as Router, Routes, Route } from "react-router-dom"; // Use HashRouter
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import GemstoneList from "./components/GemstoneList";
 import GemstoneDetail from "./components/GemstoneDetail";
 import "./styles.css";
@@ -26,17 +26,16 @@ function App() {
         
         {/* Logo */}
         <header className="app-header">
-        <img src={process.env.PUBLIC_URL + "/images/logo.png"} alt="The Gemist Logo" className="app-logo" />
-
+          <img src={process.env.PUBLIC_URL + "/images/logo.png"} alt="The Gemist Logo" className="app-logo" />
         </header>
 
-        {/* Dark Mode Toggle */}
+        {/* Dark Mode Toggle - Only Symbols */}
         <div className="dark-mode-toggle">
+          <span>{darkMode ? "🌙" : "☀️"}</span>
           <label className="switch">
             <input type="checkbox" checked={darkMode} onChange={toggleDarkMode} />
             <span className="slider round"></span>
           </label>
-          <span>{darkMode ? "🌙 Dark Mode" : "☀️ Light Mode"}</span>
         </div>
 
         <Routes>

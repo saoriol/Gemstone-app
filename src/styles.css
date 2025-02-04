@@ -11,15 +11,17 @@ body {
     color: #ffffff;
   }
   
- /* Dark Mode Toggle - Move to the Right */
+ /* Dark Mode Toggle - Aligning Symbols */
 .dark-mode-toggle {
     position: absolute;
     top: 15px;
-    right: 20px; /* Aligns to the right */
+    right: 20px;
     display: flex;
     align-items: center;
     gap: 8px;
+    font-size: 1.5rem; /* Adjust symbol size */
   }
+  
   
   
   .switch {
