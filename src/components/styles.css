@@ -1,0 +1,120 @@
+/* Responsive Grid Layout */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  padding: 10px;
+  justify-content: center;
+}
+
+/* Card Styling */
+.card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Ensure images scale properly */
+.card img {
+  width: 100%;
+  height: auto;
+  max-width: 120px;
+  max-height: 120px;
+  object-fit: contain; /* Prevents image from being cropped */
+  border-radius: 10px;
+}
+
+/* Prevent issues with search results resizing */
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  }
+
+  .card img {
+    max-width: 100px;
+    max-height: 100px;
+  }
+}
+/* Search Input */
+.search-input {
+  width: 90%;
+  max-width: 400px;
+  padding: 12px;
+  margin: 15px auto;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Responsive Text Size */
+h1 {
+  font-size: 22px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+/* Gemstone Detail Page */
+.gemstone-detail {
+  text-align: center;
+  padding: 20px;
+}
+
+.gemstone-detail img {
+  width: 90%;
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+/* Back Button */
+.back-button {
+  margin-top: 20px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
+
+/* Mobile Friendly Adjustments */
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  }
+
+  .search-input {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 14px;
+  }
+
+  .card img {
+    max-height: 100px;
+  }
+}
+
