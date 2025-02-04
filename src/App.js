@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom"; // Use HashRouter
 import GemstoneList from "./components/GemstoneList";
 import GemstoneDetail from "./components/GemstoneDetail";
 import "./styles.css";
@@ -26,7 +26,8 @@ function App() {
         
         {/* Logo */}
         <header className="app-header">
-          <img src="/images/logo.png" alt="The Gemist Logo" className="app-logo" />
+        <img src={process.env.PUBLIC_URL + "/images/logo.png"} alt="The Gemist Logo" className="app-logo" />
+
         </header>
 
         {/* Dark Mode Toggle */}
