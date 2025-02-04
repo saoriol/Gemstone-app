@@ -6,7 +6,7 @@ import "./styles.css";
 const GemstoneDetail = () => {
   const { id } = useParams();
   const navigate = useNavigate();
-  const gem = gemstones[id];
+  const gem = gemstones[parseInt(id, 10)];
 
   if (!gem) return <h2>Gemstone not found!</h2>;
 

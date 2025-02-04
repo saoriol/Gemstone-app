@@ -25,14 +25,13 @@ const GemstoneList = () => {
         className="search-input"
       />
 
-      {/* Keep grid structure when filtering */}
       <div className="grid">
         {filteredGemstones.length > 0 ? (
-          filteredGemstones.map((gem, index) => (
+          filteredGemstones.map((gem) => (
             <div 
-              key={index} 
+              key={gem.name} 
               className="card" 
-              onClick={() => navigate(`/gem/${index}`)}
+              onClick={() => navigate(`/gem/${gemstones.indexOf(gem)}`)} // Get correct index
               role="button"
             >
               <img src={gem.image} alt={gem.name} />
