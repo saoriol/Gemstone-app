@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Gemestone-app/static/css/main.7d7f700b.css",
-    "main.js": "/Gemestone-app/static/js/main.5670ecf4.js",
-    "index.html": "/Gemestone-app/index.html",
-    "main.7d7f700b.css.map": "/Gemestone-app/static/css/main.7d7f700b.css.map",
-    "main.5670ecf4.js.map": "/Gemestone-app/static/js/main.5670ecf4.js.map"
+    "main.css": "/Gemstone-app/static/css/main.7d7f700b.css",
+    "main.js": "/Gemstone-app/static/js/main.721df7bd.js",
+    "index.html": "/Gemstone-app/index.html",
+    "main.7d7f700b.css.map": "/Gemstone-app/static/css/main.7d7f700b.css.map",
+    "main.721df7bd.js.map": "/Gemstone-app/static/js/main.721df7bd.js.map"
   },
   "entrypoints": [
     "static/css/main.7d7f700b.css",
-    "static/js/main.5670ecf4.js"
+    "static/js/main.721df7bd.js"
   ]
 }
