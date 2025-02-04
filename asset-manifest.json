@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Gemstone-app/static/css/main.61a989d5.css",
-    "main.js": "/Gemstone-app/static/js/main.f04e6006.js",
+    "main.js": "/Gemstone-app/static/js/main.7746d6f2.js",
     "index.html": "/Gemstone-app/index.html",
     "main.61a989d5.css.map": "/Gemstone-app/static/css/main.61a989d5.css.map",
-    "main.f04e6006.js.map": "/Gemstone-app/static/js/main.f04e6006.js.map"
+    "main.7746d6f2.js.map": "/Gemstone-app/static/js/main.7746d6f2.js.map"
   },
   "entrypoints": [
     "static/css/main.61a989d5.css",
-    "static/js/main.f04e6006.js"
+    "static/js/main.7746d6f2.js"
   ]
 }
